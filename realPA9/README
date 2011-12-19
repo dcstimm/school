@@ -1,0 +1,49 @@
+/*
+* Name: Daryl Stimm
+*
+* Login: cs11feq
+*
+* Date: November 30, 2011
+*
+* File: README
+*
+*/
+
+
+This application creates a set of classes to implement a simple hierarchy of 
+Shapes.  We created a standard Shape class and extended it to make simple shapes
+like triangles, squares, rectangles, circles, lines, and even a polygon.
+
+We can use these shapes to draw various graphics on the canvas, for example, 
+we were able to use these to draw a mickey mouse using three circles, two for 
+the ears and one for the round face.   
+
+We could even use our shapes to draw a house, using the various shapes to 
+construct the house.  For example, a square was used to make a window and a
+triangle was used to draw the roof.  
+
+****Extra Credit****
+
+For the extra credit we created a new Polygon Shape class and a test driver. 
+
+My test driver draws various polygons and let me explain to you what the test 
+driver is doing.
+
+First, I set the points I want for a Large star that I am going to draw in the
+center of the canvas.  Next I put these points into an array and use them
+to create the star.  
+
+Next I copy the star and shift it over 5 pixels to the left and 5 pixels down
+but I only do this if they copy was perfectly equal.  This creates a 3D look.
+
+Second, I create four polygons and place them in each corner, I also copy,
+check to see if they are equal and move them to the correct position. Then I 
+give them all unique colors.
+
+Third, I create a simple trapezoid and place it on the bottom center and set the
+color to gray.  
+
+I also display the Star's first and last points along with it's hashcode.  
+
+
+I really enjoyed making this, and I hope you enjoy the graphics I created.  
